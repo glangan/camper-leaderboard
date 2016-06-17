@@ -1,0 +1,35 @@
+$bg-color: #343642;
+$tb-color: #F2EBC7;
+$tx-color: #348899;
+
+body {
+  background-color: $bg-color;
+}
+
+
+table {
+  background-color: $tb-color;
+  margin-top: 2em;
+  border-radius: 2px;
+  caption {
+    text-align: center;
+    background-color: $tx-color;
+    color: $tb-color;
+    font-size: 2em;
+  }
+  thead{
+    color: $tx-color;
+  }
+  img {
+    max-width: 50px;
+    max-height: 50px;
+    display: inline-box;
+    padding-right: 1em;
+  }
+  .not-selected {
+    cursor: pointer;
+  }
+  .selected {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: #343642; }
+
+table {
+  background-color: #F2EBC7;
+  margin-top: 2em;
+  border-radius: 2px; }
+  table caption {
+    text-align: center;
+    background-color: #348899;
+    color: #F2EBC7;
+    font-size: 2em; }
+  table thead {
+    color: #348899; }
+  table img {
+    max-width: 50px;
+    max-height: 50px;
+    display: inline-box;
+    padding-right: 1em; }
+  table .not-selected {
+    cursor: pointer; }
+  table .selected {
+    text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */
